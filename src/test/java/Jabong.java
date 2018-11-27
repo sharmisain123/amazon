@@ -27,6 +27,7 @@ public class Jabong {
        // baseUrl = "https://www.google.com/";
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         driver.manage().window().maximize();
+        System.out.printf("This is a driver setup");
     }
 
     @Test
